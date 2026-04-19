@@ -11,6 +11,8 @@ merged = pd.read_csv(
 # %%
 # Parse month-level dates; invalid values become NaT (rows are kept)
 merged["date"] = pd.to_datetime(merged["date"], errors="coerce")
+cutoff = pd.Timestamp("2025-08-01")
+merged = merged[(merged["date"].isna()) | (merged["date"] <= cutoff)]
 
 # %%
 # Month index: year * 12 + month (float). Differences are in whole months.
