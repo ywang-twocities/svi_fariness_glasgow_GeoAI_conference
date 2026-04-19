@@ -71,4 +71,4 @@ failed_log.txt
 # =========================
 # test
 # =========================
-test.py
+/script/test.py
