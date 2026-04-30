@@ -8,7 +8,7 @@ Clean Street View metadata CSV.
 # %%
 import pandas as pd
 
-GRID_SIZE_M = 50
+GRID_SIZE_M = 20
 meta_data = pd.read_csv(
     rf"C:\Users\2715439W\Projects\fariness_glasgow\result\glasgow_streetview_metadata_grid_{GRID_SIZE_M}m.csv"
 )
