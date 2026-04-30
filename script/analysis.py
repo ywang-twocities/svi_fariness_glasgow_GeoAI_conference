@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import mannwhitneyu, kruskal
 
-GRID_SIZE_M = 50
+GRID_SIZE_M = 20
 
 # Plot style 
 sns.set_theme(style="whitegrid", context="talk", font_scale=1.1)

@@ -22,7 +22,7 @@ from tqdm import tqdm
 warnings.filterwarnings("ignore")
 tqdm.pandas()
 
-GRID_SIZE_M = 50
+GRID_SIZE_M = 20
 
 # %% Paths
 # Boundary GeoJSON (e.g. from osmnx or manual export)

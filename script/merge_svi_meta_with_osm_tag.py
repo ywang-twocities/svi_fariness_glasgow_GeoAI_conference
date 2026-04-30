@@ -1,7 +1,7 @@
 # %%
 import pandas as pd
 
-GRID_SIZE_M = 50
+GRID_SIZE_M = 20
 
 # %%
 osm_tags = pd.read_csv(

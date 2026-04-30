@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # %%
-GRID_SIZE_M = 50
+GRID_SIZE_M = 20
 merged = pd.read_csv(
     rf"C:\Users\2715439W\Projects\fariness_glasgow\result\merged_svi_osm_{GRID_SIZE_M}m.csv"
 )

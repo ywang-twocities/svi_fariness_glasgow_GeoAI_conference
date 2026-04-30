@@ -11,7 +11,7 @@ import os
 # ---------------------------------------------------------------------------
 # Grid spacing in metres (20 or 50)
 # ---------------------------------------------------------------------------
-GRID_SIZE_M = 50
+GRID_SIZE_M = 20
 if GRID_SIZE_M not in {20, 50}:
     raise ValueError("GRID_SIZE_M must be 20 or 50.")
 
