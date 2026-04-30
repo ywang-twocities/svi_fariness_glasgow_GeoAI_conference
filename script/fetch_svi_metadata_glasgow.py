@@ -55,7 +55,7 @@ def process_panoids_with_distance(panoids_list, query_lat, query_lon):
 # ============================================================
 # 3️⃣ load Glasgow grid
 # ============================================================
-grid_path = r"C:\Users\2715439W\Projects\fariness_glasgow\result\glasgow_grid_50m.csv"
+grid_path = r"C:\Users\2715439W\Projects\fariness_glasgow\result\glasgow_grid_20m.csv"
 df_grid = pd.read_csv(grid_path)
 # grid_centers = list(zip(df_grid["query_lat"], df_grid["query_lon"]))
 # print(f"✅ Loaded Glasgow grid，in total: {len(grid_centers)}")
@@ -65,7 +65,7 @@ print(f"✅ Loaded Glasgow grid, in total: {len(grid_centers)} with grid_id")
 # ============================================================
 # 4️⃣ output file 
 # ============================================================
-out_csv = r"C:\Users\2715439W\Projects\fariness_glasgow\result\glasgow_streetview_metadata_grid_50m.csv"
+out_csv = r"C:\Users\2715439W\Projects\fariness_glasgow\result\glasgow_streetview_metadata_grid_20m.csv"
 os.makedirs(os.path.dirname(out_csv), exist_ok=True)
 
 # if output file exists, load existing to skip done points
